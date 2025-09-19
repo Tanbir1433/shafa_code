@@ -80,7 +80,7 @@ class _SimpleInputFieldState extends State<SimpleInputField> {
         readOnly: widget.viewOnly ?? false,
         decoration: InputDecoration(
           isDense: true,
-          errorStyle: AppText().bodyLarge.copyWith(fontSize: 11, color: AppColor.red),
+          errorStyle: AppText().bodyMedium.copyWith(fontSize: 11, color: AppColor.button),
           contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
           hintText: widget.hintText,
           hintStyle: widget.hintTextStyle ?? AppText().bodyExtraSmall,

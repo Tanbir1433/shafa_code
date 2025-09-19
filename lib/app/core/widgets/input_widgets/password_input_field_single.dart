@@ -76,11 +76,11 @@ class _PasswordInputFieldSingleState extends State<PasswordInputFieldSingle> {
               },
         decoration: InputDecoration(
           isDense: true,
-          focusColor: AppColor.scaffoldColor,
+          focusColor: AppColor.bgAuth,
           labelStyle: AppText().bodyExtraSmall,
           filled: true,
           fillColor: widget.backgroundColor ?? AppColor.bgAuth,
-          errorStyle: AppText().bodyMediumBold.copyWith(fontSize: 11, color: AppColor.red),
+          errorStyle: AppText().bodyMediumBold.copyWith(fontSize: 11, color: AppColor.button),
           prefixIcon: widget.prefixWidget ?? (widget.prefixIcon != null ? Icon(widget.prefixIcon, size: 16) : null),
           suffixIcon: IconButton(
             onPressed: () {

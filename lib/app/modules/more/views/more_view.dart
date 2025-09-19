@@ -15,7 +15,7 @@ class MoreView extends GetView<MoreController> {
       body:  Center(
         child: Text(
           'MoreView',
-          style: AppText().headerLine3.copyWith(color: AppColor.bgAuth),
+          style: AppText().bodyMedium.copyWith(color: AppColor.bgAuth,fontSize: 35),
         ),
       ),
     );
